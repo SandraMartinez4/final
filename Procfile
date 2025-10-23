@@ -1,1 +1,1 @@
-web: gunicorn expr_api.wsgi:application
+web: gunicorn core.wsgi:application
