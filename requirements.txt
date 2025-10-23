@@ -1,4 +1,7 @@
-Django>=4.2,<6.0
-djangorestframework>=3.16
+Django>=3.2,<4.0
 gunicorn
-antlr4-python3-runtime==4.13.2
+dj-database-url
+python-decouple
+whitenoise
+psycopg2-binary
+djangorestframework
