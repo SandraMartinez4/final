@@ -5,10 +5,7 @@ from decouple import config  # Necesario instalar python-decouple
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECURITY
-SECRET_KEY = config('SECRET_KEY', default='cambia_esta_por_una_real')
-DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = ['tu-app.herokuapp.com']  # Cambia por tu URL de Heroku
+
 
 # Application definition
 INSTALLED_APPS = [
