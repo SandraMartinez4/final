@@ -1,0 +1,8 @@
+Django>=3.2,<4.0
+python-decouple==3.8
+gunicorn
+dj-database-url
+python-decouple
+whitenoise
+psycopg2-binary
+djangorestframework
