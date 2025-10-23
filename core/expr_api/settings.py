@@ -48,7 +48,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'core.wsgi.application'
+WSGI_APPLICATION = 'expr_api.wsgi.application'
 
 # Base de datos: Heroku usa PostgreSQL
 DATABASES = {
