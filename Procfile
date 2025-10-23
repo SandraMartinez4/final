@@ -1,1 +1,0 @@
-web: gunicorn expr_api.wsgi:application
