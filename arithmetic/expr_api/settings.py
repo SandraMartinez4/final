@@ -3,6 +3,8 @@ import os
 import dj_database_url
 from decouple import config  # Necesario instalar python-decouple
 
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', cast=bool)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -80,3 +82,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
